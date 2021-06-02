@@ -40,9 +40,9 @@ A MVVM library for iOS Swift, including interfaces for View, ViewModel and Model
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
 
-  s.dependency 'RxSwift' 
-  s.dependency 'RxCocoa'
-  s.dependency 'Action'
+  s.dependency 'RxSwift', '~> 5.1.1' 
+  s.dependency 'RxCocoa', '~> 5.1.1'
+  s.dependency 'Action', '~> 4.2.0'
   s.dependency 'Alamofire', '~> 4.9.1'
   s.dependency 'AlamofireImage', '~> 3.6.0'
   s.dependency 'ObjectMapper'
